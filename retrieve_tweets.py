@@ -54,7 +54,7 @@ def retrieve_statuses(api, ids_portion):
 
 def write_json(obj, filename):
     with open(filename, "w") as f:
-        json.dump(obj, f, sort_keys=True, indent=4, ensure_ascii=False)
+        json.dump(obj, f, sort_keys=True, indent=4)
 
 args = create_argparser().parse_args()
 
