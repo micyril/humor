@@ -75,3 +75,4 @@ for hundred in iter_by_hundreds(ids):
     sys.stdout.flush()
 
 write_json(tweets, args.output)
+six.print_("\nWrote results to", args.output)
